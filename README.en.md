@@ -2,13 +2,13 @@
 
 ![Preview](assets/preview.svg)
 
-A section-based journey with progressive entrances, motion variants, and a reading indicator.
+A compact internal-scroll stage with three progressive entrances and a capture-ready composition.
 
 ## Features
 
-- `IntersectionObserver` with unobserve after reveal.
-- Side, vertical, scale, and opacity variants.
-- Replay from the header or final section.
+- `IntersectionObserver` rooted in the visual panel.
+- Scale, direction, and depth variants.
+- Replay from within the same block.
 - Visible content without JavaScript and under reduced motion.
 
 ## Live demo
@@ -25,7 +25,7 @@ Clone the repository, enter `scroll-reveal-section`, and open `index.html`.
 
 ## Customization
 
-Apply `from-left`, `from-right`, `from-bottom`, `scale`, or `fade` to new `.reveal` blocks.
+Add new `.story-card` elements, define their visual direction, and update state copy through `data-*` attributes.
 
 ## Accessibility
 
@@ -33,7 +33,7 @@ The initial `no-js` class prevents hidden content if JavaScript fails, and reduc
 
 ## Performance
 
-Each element stops being observed after appearing; progress updates use one pending frame.
+The observer is constrained to the internal panel and needs no global scroll listeners.
 
 ## License and credits
 

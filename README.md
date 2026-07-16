@@ -2,13 +2,13 @@
 
 ![Vista previa](assets/preview.svg)
 
-Recorrido de secciones con entradas progresivas, variantes de movimiento e indicador de lectura.
+Escenario compacto con scroll interno, tres entradas progresivas y una composición lista para grabar.
 
 ## Características
 
-- `IntersectionObserver` y desconexión tras revelar.
-- Variantes lateral, vertical, escala y opacidad.
-- Reinicio desde la cabecera o el final.
+- `IntersectionObserver` con el panel como raíz.
+- Variantes de escala, dirección y profundidad.
+- Reinicio de la secuencia desde el mismo bloque.
 - Contenido visible sin JavaScript y con movimiento reducido.
 
 ## Demo en vivo
@@ -25,7 +25,7 @@ Clona el repositorio, entra en `scroll-reveal-section` y abre `index.html`.
 
 ## Cómo personalizarlo
 
-Aplica las clases `from-left`, `from-right`, `from-bottom`, `scale` o `fade` a nuevos bloques `.reveal`.
+Añade nuevas `.story-card`, define su dirección visual y actualiza el contenido de estado mediante atributos `data-*`.
 
 ## Accesibilidad
 
@@ -33,7 +33,7 @@ La clase inicial `no-js` evita ocultar contenido si falla JavaScript y movimient
 
 ## Rendimiento
 
-Cada elemento deja de observarse al aparecer y el progreso se actualiza con un solo frame pendiente.
+El observador se limita al panel interno y no requiere listeners globales de scroll.
 
 ## Licencia y créditos
 
