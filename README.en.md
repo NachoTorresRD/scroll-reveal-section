@@ -15,6 +15,12 @@ A compact internal-scroll stage with three progressive entrances and a capture-r
 
 [scroll.ntdesweb.dev](https://scroll.ntdesweb.dev/)
 
+## More effect demos
+
+- [Neon Cursor Trail](https://neon.ntdesweb.dev/)
+- [Animated Login Panel](https://login.ntdesweb.dev/)
+- [Floating Navbar](https://navbar.ntdesweb.dev/)
+
 ## Installation
 
 Clone the repository, enter `scroll-reveal-section`, and open `index.html`.

@@ -15,6 +15,12 @@ Escenario compacto con scroll interno, tres entradas progresivas y una composici
 
 [scroll.ntdesweb.dev](https://scroll.ntdesweb.dev/)
 
+## Más demos de efectos
+
+- [Neon Cursor Trail](https://neon.ntdesweb.dev/)
+- [Animated Login Panel](https://login.ntdesweb.dev/)
+- [Floating Navbar](https://navbar.ntdesweb.dev/)
+
 ## Instalación
 
 Clona el repositorio, entra en `scroll-reveal-section` y abre `index.html`.
