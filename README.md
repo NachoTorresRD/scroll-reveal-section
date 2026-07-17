@@ -13,7 +13,7 @@ Escenario compacto con scroll interno, tres entradas progresivas y una composici
 
 ## Demo en vivo
 
-[scroll-reveal-section.netlify.app](https://scroll-reveal-section.netlify.app)
+[scrollfx.ntdesweb.dev](https://scrollfx.ntdesweb.dev/)
 
 ## Instalación
 
