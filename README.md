@@ -13,7 +13,7 @@ Escenario compacto con scroll interno, tres entradas progresivas y una composici
 
 ## Demo en vivo
 
-[scrollfx.ntdesweb.dev](https://scrollfx.ntdesweb.dev/)
+[scroll.ntdesweb.dev](https://scroll.ntdesweb.dev/)
 
 ## Instalación
 

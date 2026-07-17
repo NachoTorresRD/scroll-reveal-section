@@ -13,7 +13,7 @@ A compact internal-scroll stage with three progressive entrances and a capture-r
 
 ## Live demo
 
-[scrollfx.ntdesweb.dev](https://scrollfx.ntdesweb.dev/)
+[scroll.ntdesweb.dev](https://scroll.ntdesweb.dev/)
 
 ## Installation
 
